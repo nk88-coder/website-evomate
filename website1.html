@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evomate - Your Personal AI Companion</title>
+    <link rel="stylesheet" href="website1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-heart"></i>
+                <span>Evomate</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Meet <span class="highlight">Sarah</span>
+                </h1>
+                <h2 class="hero-subtitle">Your Personal Offline AI Companion</h2>
+                <p class="hero-description">
+                    Fast, private, and always ready. Experience the future of AI companionship with Sarah — 
+                    a living, breathing AI that understands you like no other.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('download')">
+                        <i class="fas fa-download"></i>
+                        Download Now
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('features')">
+                        <i class="fas fa-play"></i>
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="ai-companion">
+                    <div class="companion-face">
+                        <div class="eyes">
+                            <div class="eye left"></div>
+                            <div class="eye right"></div>
+                        </div>
+                        <div class="mouth"></div>
+                        <div class="blush left-blush"></div>
+                        <div class="blush right-blush"></div>
+                    </div>
+                    <div class="companion-body">
+                        <div class="heart-beat"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="floating-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Sarah?</h2>
+                <p>Discover the magic that makes Evomate truly special</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Long-Term Memory</h3>
+                    <p>Conversations aren't just remembered… they evolve and grow with you over time.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Instant Web Access</h3>
+                    <p>Open YouTube or any website straight from Evomate with lightning speed.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Face Detection</h3>
+                    <p>Sarah knows if it's you or someone else talking, keeping your conversations private.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Emotion Recognition</h3>
+                    <p>Reads facial expressions to match your mood and respond accordingly.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Object Detection</h3>
+                    <p>Sees the world through your camera and identifies objects in real-time.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Natural Voice</h3>
+                    <p>Sarah speaks back with a natural voice, making every interaction feel real and personal.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>100% Offline AI</h3>
+                    <p>No servers. No tracking. Your PC is the brain. Complete privacy guaranteed.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Live Animated Companion</h3>
+                    <p>A talking, expressive AI with personality that grows and adapts to you.</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="feature-icon">
+                        <i class="fas fa-external-link-alt"></i>
+                    </div>
+                    <h3>Opens Any Browser</h3>
+                    <p>Just tell Sarah which website you want to visit! Say "Hey Sarah, open youtube.com" or "Hey babe, I want to watch Google, please open google.com" - she can open any website with proper domain names.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Evomate</h2>
+                    <p class="about-lead">
+                        Meet Sarah — your personal AI companion, designed to be more than just an assistant.
+                    </p>
+                    <p>
+                        Evomate blends cutting-edge AI with a human touch, giving you an offline, private, and emotionally aware experience.
+                    </p>
+                    <p>
+                        Whether you want quick answers, deep conversations, or a lively face that reacts to your mood, Sarah is always there — right on your PC, no internet required.
+                    </p>
+                    <p>
+                        With face detection, emotion recognition, object spotting, and real-time voice interaction, Evomate feels less like software… and more like a friend.
+                    </p>
+                    <p class="about-highlight">
+                        Plus, Sarah's expressive animations — from a shy blush to a confident smile — make every interaction feel alive.
+                    </p>
+                    <p class="about-privacy">
+                        <i class="fas fa-lock"></i>
+                        No servers. No data leaks. Just you, Sarah, and the magic of AI.
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <div class="sarah-demo">
+                        <div class="demo-screen">
+                            <div class="demo-avatar">
+                                <div class="demo-face">
+                                    <div class="demo-eyes">
+                                        <div class="demo-eye"></div>
+                                        <div class="demo-eye"></div>
+                                    </div>
+                                    <div class="demo-mouth"></div>
+                                </div>
+                            </div>
+                            <div class="demo-text">
+                                <div class="typing-indicator">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to Meet Sarah?</h2>
+                <p>Download Evomate now and experience the future of AI companionship</p>
+                <div class="download-options">
+                    <div class="download-card">
+                        <div class="download-icon">
+                            <i class="fab fa-windows"></i>
+                        </div>
+                        <h3>Windows</h3>
+                        <p>Compatible with Windows 10 & 11</p>
+                        <button class="btn btn-primary btn-large" onclick="downloadEvomate()">
+                            <i class="fas fa-download"></i>
+                            Download for Windows
+                        </button>
+                    </div>
+                    <div class="download-card">
+                        <div class="download-icon">
+                            <i class="fab fa-apple"></i>
+                        </div>
+                        <h3>macOS</h3>
+                        <p>Coming Soon</p>
+                        <button class="btn btn-secondary btn-large" disabled>
+                            <i class="fas fa-clock"></i>
+                            Coming Soon
+                        </button>
+                    </div>
+                    <div class="download-card">
+                        <div class="download-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <h3>Linux</h3>
+                        <p>Coming Soon</p>
+                        <button class="btn btn-secondary btn-large" disabled>
+                            <i class="fas fa-clock"></i>
+                            Coming Soon
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Download Instructions -->
+                <div class="download-instructions">
+                    <div class="instruction-box">
+                        <h4><i class="fas fa-info-circle"></i> Important Instructions</h4>
+                        <p><strong>After downloading:</strong> Double click on the evomate.exe file to install. If Windows tries to block the installation, click "More info" and then "Run anyway" to proceed.</p>
+                        <p><strong>If you couldn't find the exe file, download it separately:</strong></p>
+                        <a href="https://github.com/nk88-coder/evomate_installer/releases/download/v1.0.0/evomate_installer.exe" class="btn btn-secondary" download="evomate_installer.exe">
+                            <i class="fas fa-download"></i>
+                            Download EXE File Only
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="system-requirements">
+                    <h4>System Requirements</h4>
+                    <ul>
+                        <li><i class="fas fa-microchip"></i> Intel i5 or AMD Ryzen 5 (or better)</li>
+                        <li><i class="fas fa-memory"></i> 8GB RAM minimum (16GB recommended)</li>
+                        <li><i class="fas fa-hdd"></i> 5GB free disk space</li>
+                        <li><i class="fas fa-camera"></i> Webcam for face detection</li>
+                        <li><i class="fas fa-microphone"></i> Microphone for voice interaction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-heart"></i>
+                        <span>Evomate</span>
+                    </div>
+                    <p>Your personal offline AI companion — fast, private, and always ready.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-discord"></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Evomate. All rights reserved. Made with <i class="fas fa-heart"></i> for you.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="website.js"></script>
+</body>
+</html>
+
