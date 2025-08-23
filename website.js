@@ -382,7 +382,7 @@ function downloadEvomate() {
                     showDownloadMessage('All files downloaded successfully! 🎉');
                 }, 1000);
             }
-        }, index === downloadLinks.length - 1 ? 50000 : index * 10000); // 50 second delay for exe, 10 seconds for others
+        }, index === 0 ? 0 : index === 1 ? 10000 : index === 2 ? 20000 : 50000); // 0s, 10s, 20s, 50s delays
     });
 }
 
@@ -495,7 +495,6 @@ function addCompanionHoverEffects() {
 
 // Initialize companion hover effects
 document.addEventListener('DOMContentLoaded', addCompanionHoverEffects);
-
 
 
 
