@@ -728,6 +728,126 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0.5rem;
 }
 
+/* Manual Download Section */
+.manual-download {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-download-box {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-light);
+    max-width: 700px;
+    text-align: left;
+    border-left: 4px solid #ff9800;
+}
+
+.manual-download-box h4 {
+    color: #ff9800;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.manual-download-box p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.manual-download-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    transition: var(--transition);
+}
+
+.btn-outline:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-outline-secondary {
+    background: transparent;
+    color: #28a745;
+    border: 2px solid #28a745;
+    transition: var(--transition);
+}
+
+.btn-outline-secondary:hover {
+    background: #28a745;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.server-section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background: #fafafa;
+}
+
+.server-section h5 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.server-divider {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-top: 2px dashed #ddd;
+    border-bottom: 2px dashed #ddd;
+}
+
+.server-divider p {
+    color: var(--text-primary);
+    font-weight: 600;
+    margin: 0;
+}
+
+.exe-download-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid var(--primary-color);
+}
+
+.exe-download-section h5 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.exe-download-section p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
 .system-requirements {
     background: white;
     padding: 2rem;
@@ -997,3 +1117,4 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-color);
 }
+
